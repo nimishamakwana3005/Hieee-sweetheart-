@@ -36,3 +36,47 @@ button {
 button:hover {
   background-color: #7a1fd1;
 }
+.month-page {
+  background: linear-gradient(135deg, #f3e6ff, #e6ccff);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.memory-img {
+  width: 250px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.memory-img:hover {
+  transform: scale(1.05);
+}
+
+.hint {
+  color: #7a1fd1;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 400px;
+  margin: 150px auto;
+}
